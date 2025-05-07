@@ -19,6 +19,9 @@ spec:
       image: devil678/amazon-prime-video
       ports:
       - containerPort: 3002
+      env:
+      - name: PORT
+         port: "3002"
 
 ---
 
